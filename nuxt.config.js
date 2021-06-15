@@ -38,12 +38,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
-    // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
   ],
-
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
