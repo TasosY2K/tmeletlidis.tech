@@ -23,7 +23,7 @@
           <b-row>
             <b-col>
               <img src="~/assets/me.jpg" class="my-image">
-              <h3 class="mt-4">Who am i?</h3>
+              <h3 class="mt-4">Who am I?</h3>
               <p>I am a self-taught fullstack web developer currently studying CS in Thessaloniki, GR. I have a serious passion for the cloud and the infastructure that powers our everyday lives. <a href="javascript:void(0);" @click="goto('5')">Let's make something special.</a></p>
               <a href="/AnastasiosMeletlidisCV.pdf" class="btn cv-btn" download>Download CV <img style="transform: translateY(-2px)" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAA3ElEQVRIie2Uuw0CMRBEZxGEVHAnaiBGkCASRB80QsSnAPqACmjFZBQAEY8Ag058FnNccAEjbWKv59m7K0t1ENACVsAhxhJoVglY8Kx5GaMJsH9hdlMP6Dv7ARgXPe0BECTlzh0G8czOyQlm1nkHIPm5jszs7tuowtBTrQAbSZmuPdqWojnTAZAV8nIvsewLSukbwBrIgFzSOvVQLcb0KGkmqSupHaMb105fkd/0bOjkjz41OaVEDTN7WTrAJJ0f14slSvlyz7+0plZjWglgX4Fn8ADTHyEhevyVrguoawiwk/2/vAAAAABJRU5ErkJggg=="></a>
             </b-col>
@@ -39,7 +39,7 @@
                 <ProgressBar :percentage="'70%'" :text="'Wordpress/Woocommerce'"/>
                 <ProgressBar :percentage="'70%'" :text="'CS-Cart'"/>
                 <ProgressBar :percentage="'60%'" :text="'PHP'"/>
-                <ProgressBar :percentage="'50%'" :text="'Ruby'"/>
+                <ProgressBar :percentage="'60%'" :text="'ReactJS'"/>
               </div>
             </b-col>
           </b-row>
@@ -95,7 +95,7 @@
               <b-form-input type="email" class="contact-form mt-3" placeholder="E-mail" v-model="emailAddress"></b-form-input>
               <b-form-textarea
                 class="mt-3 contact-form"
-                placeholder="What do yo want to build?"
+                placeholder="What do you want to build?"
                 rows="3"
                 max-rows="6"
                 v-model="emailContent"
@@ -176,6 +176,13 @@ export default {
   height: 40vh;
   width: auto;
   cursor: pointer;
+  user-select: none;
+}
+
+@media screen and (max-width: 745px) {
+  .header {
+    height: 20vh;
+  }
 }
 
 .section {
@@ -200,11 +207,20 @@ export default {
 .about-section {
   text-align: center;
   background-color: #f1f1f1;
+  padding-bottom: 2.5rem;
+  pointer-events: none;
+  user-select: none;
 }
 
 .about-icon {
   height: 35vh;
   width: auto;
+}
+
+@media screen and (max-width: 745px) {
+  .about-icon {
+    height: 30vh;
+  }
 }
 
 .skills-section {
@@ -218,6 +234,13 @@ export default {
   height: 30vh;
   width: auto;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 745px) {
+  .my-image {
+    height: 20vh;
+    margin-top: 3rem;
+  }
 }
 
 .cv-btn {
@@ -239,6 +262,12 @@ export default {
 
 .skills-header {
   color: #173357;
+}
+
+@media screen and (max-width: 745px) {
+  .skills-header {
+    margin-top: 3rem;
+  }
 }
 
 .projects-section {
