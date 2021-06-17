@@ -98,7 +98,7 @@ export default {
                     description: "ProtonVPN account generator.",
                     image: "https://user-images.githubusercontent.com/29873078/78678396-90340080-78f1-11ea-866f-eec2d50771f5.png",
                     link: "https://github.com/TasosY2K/protonvpn-acc-gen",
-                    tech: "NodeJS",
+                    tech: "NodeJS/Puppeteer",
                     category: "software" 
                 },
                 {
@@ -108,7 +108,71 @@ export default {
                     link: "https://lean-tracker-demo.herokuapp.com/",
                     tech: "NodeJS/Express.js",
                     category: "website" 
-                }
+                },
+                {
+                    name: "IP Fragment Calculator",
+                    description: "An easy to use fragmentation calculator with a web interface.",
+                    image: "https://media.discordapp.net/attachments/609854261635055626/855123386887176272/unknown.png?width=1248&height=612",
+                    link: "https://kind-ritchie-469952.netlify.app/",
+                    tech: "VueJS",
+                    category: "website" 
+                },
+                {
+                    name: "ESP8266-Phising",
+                    description: "Tactical Phising Attacks with ESP8266.",
+                    image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F7%2F7e%2FNodeMCU_DEVKIT_1.0.jpg%2F300px-NodeMCU_DEVKIT_1.0.jpg&f=1&nofb=1",
+                    link: "https://github.com/TasosY2K/ESP8266-Phising",
+                    tech: "Arduino/HTML/JS",
+                    category: "software" 
+                },
+                {
+                    name: "Snappy Short",
+                    description: "Snappy Short is a simple but swift link shortener.",
+                    image: "https://user-images.githubusercontent.com/29873078/77546483-9f0fc180-6eb4-11ea-9168-df7dfb5b1ec6.png",
+                    link: "https://github.com/TasosY2K/snappy-short",
+                    tech: "NodeJS/Express.js",
+                    category: "website"
+                },
+                {
+                    name: "IP Range Generator",
+                    description: "A simple website for creating random fake IP addresses.",
+                    image: "https://media.discordapp.net/attachments/609854261635055626/855125827280699392/unknown.png?width=1248&height=612",
+                    link: "https://tasosy2k.github.io/Random-IP-Generator",
+                    tech: "HTML/CSS/JS",
+                    category: "website"
+                },
+                {
+                    name: "Youtube Grabber",
+                    description: "YouTube Grabber is a high quality video converter built on express.",
+                    image: "https://camo.githubusercontent.com/e3777c6491d6dbcf700e1edc9544fe06526077b9f4b944c7f11a7df69adc0b94/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3630393835343237313831303330363034392f3635353835353838333336383133363731342f53637265656e73686f745f322e706e673f77696474683d373538266865696768743d343235",
+                    link: "https://github.com/TasosY2K/youtube-grabber",
+                    tech: "NodeJS/Express.js",
+                    category: "website"
+                },
+                {
+                    name: "King Crypter Demo Site",
+                    description: "Landing page for the upcoming King Crypter project.",
+                    image: "https://media.discordapp.net/attachments/609854261635055626/855127912063959060/unknown.png?width=1248&height=612",
+                    link: "https://kingcrypter.netlify.app/",
+                    tech: "HTML/CSS/JS",
+                    category: "website"
+                },
+                {
+                    name: "Digitalza Sec Site",
+                    description: "Landing page for my friends at Digitalza Sec.",
+                    image: "https://media.discordapp.net/attachments/609854261635055626/855128725368733786/unknown.png?width=1248&height=612",
+                    link: "https://digitalza.netlify.app",
+                    tech: "HTML/CSS/JS",
+                    category: "website"
+                },
+                {
+                    name: "RedBull Basement Vote Bot",
+                    description: "A bot for generating fake votes for https://basement.redbull.com/.",
+                    image: "https://media.discordapp.net/attachments/609854261635055626/855126318307999754/unknown.png?width=1248&height=612",
+                    link: "https://github.com/TasosY2K/basement-bot-votes",
+                    tech: "NodeJS/Puppeteer",
+                    category: "software"
+                },
             ],
             currentProjects: []
         }
