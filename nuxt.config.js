@@ -11,7 +11,8 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Tasos Meletlidis, Full Stack Web Developer - Student' },
+      { name: 'og:image', content: '/meta-bg.png' }
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/icon.png' },
