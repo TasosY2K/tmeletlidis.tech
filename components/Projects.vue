@@ -54,6 +54,14 @@ export default {
         return {
             projects: [
                 {
+                    name: "Meimaris eShop",
+                    description: "Ecommerce setup + custom plugins",
+                    image: "https://cdn.discordapp.com/attachments/858361616432496640/858810580193378325/unknown.png",
+                    link: "https://www.meimaris.com",
+                    tech: "CS-Cart/PHP",
+                    category: "website" 
+                },
+                {
                     name: "AlienLogger",
                     description: "MaaS (Malware as a Service) website offering an easier to use alternative from the traditional keylogger.",
                     image: "https://user-images.githubusercontent.com/29873078/113494787-5b528d80-94f4-11eb-90af-5170fa9b8ff2.png",
