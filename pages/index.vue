@@ -1,7 +1,7 @@
 <template>
   <div ref="1">
     <div class="section header-section">
-      <img src="~/assets/screen.svg" class="header" @click="goto('2')">
+      <img src="~/assets/screen.svg" class="header" @click="goto('2')" />
     </div>
     <div ref="2">
       <b-navbar toggleable="lg" class="nav-blue" type="dark" :sticky="true">
@@ -9,37 +9,62 @@
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
-            <b-nav-item href="#" class="mr-2" @click="goto('1')">Home</b-nav-item>
-            <b-nav-item href="#" class="mr-2" @click="goto('2')">Skills</b-nav-item>
-            <b-nav-item href="#" class="mr-2" @click="goto('3')">About</b-nav-item>
-            <b-nav-item href="#" class="mr-2" @click="goto('4')">Projects</b-nav-item>
+            <b-nav-item href="#" class="mr-2" @click="goto('1')"
+              >Home</b-nav-item
+            >
+            <b-nav-item href="#" class="mr-2" @click="goto('2')"
+              >Skills</b-nav-item
+            >
+            <b-nav-item href="#" class="mr-2" @click="goto('3')"
+              >About</b-nav-item
+            >
+            <b-nav-item href="#" class="mr-2" @click="goto('4')"
+              >Projects</b-nav-item
+            >
             <b-nav-item href="#" @click="goto('5')">Contact</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
-
       </b-navbar>
       <div class="section skills-section">
         <b-container fluid="md">
           <b-row>
             <b-col>
-              <img src="~/assets/me.jpg" class="my-image">
+              <img src="~/assets/me.jpg" class="my-image" />
               <h3 class="mt-4">Who am I?</h3>
-              <p>I am a self-taught fullstack web developer currently studying CS in Thessaloniki, GR. I have a serious passion for the cloud and the infastructure that powers our everyday lives. <a href="javascript:void(0);" @click="goto('5')">Let's make something special.</a></p>
-              <a href="/AnastasiosMeletlidisCV.pdf" class="btn cv-btn" download>Download CV <img style="transform: translateY(-2px)" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAA3ElEQVRIie2Uuw0CMRBEZxGEVHAnaiBGkCASRB80QsSnAPqACmjFZBQAEY8Ag058FnNccAEjbWKv59m7K0t1ENACVsAhxhJoVglY8Kx5GaMJsH9hdlMP6Dv7ARgXPe0BECTlzh0G8czOyQlm1nkHIPm5jszs7tuowtBTrQAbSZmuPdqWojnTAZAV8nIvsewLSukbwBrIgFzSOvVQLcb0KGkmqSupHaMb105fkd/0bOjkjz41OaVEDTN7WTrAJJ0f14slSvlyz7+0plZjWglgX4Fn8ADTHyEhevyVrguoawiwk/2/vAAAAABJRU5ErkJggg=="></a>
+              <p>
+                I am a self-taught fullstack web developer currently studying CS
+                in Thessaloniki, GR. I have a serious passion for the cloud and
+                the infastructure that powers our everyday lives.
+                <a href="javascript:void(0);" @click="goto('5')"
+                  >Let's make something special.</a
+                >
+              </p>
+              <a href="/AnastasiosMeletlidisCV.pdf" class="btn cv-btn" download
+                >Download CV
+                <img
+                  style="transform: translateY(-2px)"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAA3ElEQVRIie2Uuw0CMRBEZxGEVHAnaiBGkCASRB80QsSnAPqACmjFZBQAEY8Ag058FnNccAEjbWKv59m7K0t1ENACVsAhxhJoVglY8Kx5GaMJsH9hdlMP6Dv7ARgXPe0BECTlzh0G8czOyQlm1nkHIPm5jszs7tuowtBTrQAbSZmuPdqWojnTAZAV8nIvsewLSukbwBrIgFzSOvVQLcb0KGkmqSupHaMb105fkd/0bOjkjz41OaVEDTN7WTrAJJ0f14slSvlyz7+0plZjWglgX4Fn8ADTHyEhevyVrguoawiwk/2/vAAAAABJRU5ErkJggg=="
+              /></a>
             </b-col>
             <b-col>
               <h2 class="skills-header">Skills</h2>
               <div class="skills-container">
-                <ProgressBar :percentage="'100%'" :text="'HTML/CSS'"/>
-                <ProgressBar :percentage="'100%'" :text="'Javascript/NodeJS'"/>
-                <ProgressBar :percentage="'90%'" :text="'VueJS/NuxtJS'"/>
-                <ProgressBar :percentage="'90%'" :text="'Python'"/>
-                <ProgressBar :percentage="'85%'" :text="'AWS/Cloud'"/>
-                <ProgressBar :percentage="'85%'" :text="'SQL/NoSQL Databases'"/>
-                <ProgressBar :percentage="'70%'" :text="'Wordpress/Woocommerce'"/>
-                <ProgressBar :percentage="'70%'" :text="'CS-Cart'"/>
-                <ProgressBar :percentage="'60%'" :text="'PHP'"/>
-                <ProgressBar :percentage="'60%'" :text="'ReactJS'"/>
+                <ProgressBar :percentage="'100%'" :text="'HTML/CSS'" />
+                <ProgressBar :percentage="'100%'" :text="'Javascript/NodeJS'" />
+                <ProgressBar :percentage="'90%'" :text="'VueJS/NuxtJS'" />
+                <ProgressBar :percentage="'90%'" :text="'Python'" />
+                <ProgressBar :percentage="'85%'" :text="'AWS/Cloud'" />
+                <ProgressBar
+                  :percentage="'85%'"
+                  :text="'SQL/NoSQL Databases'"
+                />
+                <ProgressBar
+                  :percentage="'70%'"
+                  :text="'Wordpress/Woocommerce'"
+                />
+                <ProgressBar :percentage="'70%'" :text="'CS-Cart'" />
+                <ProgressBar :percentage="'60%'" :text="'PHP'" />
+                <ProgressBar :percentage="'60%'" :text="'ReactJS'" />
               </div>
             </b-col>
           </b-row>
@@ -54,18 +79,18 @@
           </b-row>
           <b-row>
             <b-col>
-              <img src="~/assets/clock.svg" class="about-icon">
+              <img src="~/assets/clock.svg" class="about-icon" />
             </b-col>
             <b-col>
-              <img src="~/assets/rocket.svg" class="about-icon mt-2">
+              <img src="~/assets/rocket.svg" class="about-icon mt-2" />
             </b-col>
           </b-row>
           <b-row class="margin-top-fix">
             <b-col>
-              <img src="~/assets/device.svg" class="about-icon">
+              <img src="~/assets/device.svg" class="about-icon" />
             </b-col>
             <b-col>
-              <img src="~/assets/lamp.svg" class="about-icon mt-2">
+              <img src="~/assets/lamp.svg" class="about-icon mt-2" />
             </b-col>
           </b-row>
         </b-container>
@@ -91,8 +116,18 @@
           </b-row>
           <b-row>
             <div class="col-md-6 offset-md-3">
-              <b-form-input type="text" class="contact-form" placeholder="Name" v-model="emailName"></b-form-input>
-              <b-form-input type="email" class="contact-form mt-3" placeholder="E-mail" v-model="emailAddress"></b-form-input>
+              <b-form-input
+                type="text"
+                class="contact-form"
+                placeholder="Name"
+                v-model="emailName"
+              ></b-form-input>
+              <b-form-input
+                type="email"
+                class="contact-form mt-3"
+                placeholder="E-mail"
+                v-model="emailAddress"
+              ></b-form-input>
               <b-form-textarea
                 class="mt-3 contact-form"
                 placeholder="What do you want to build?"
@@ -100,18 +135,27 @@
                 max-rows="6"
                 v-model="emailContent"
               ></b-form-textarea>
-              <button class="submit-btn mt-3" @click="sendWebhook()">Send</button>
+              <button class="submit-btn mt-3" @click="sendWebhook()">
+                Send
+              </button>
             </div>
           </b-row>
         </b-container>
       </div>
       <div class="footer">
-        <span>E-mail: <a href="mailto:tmeletlidis@protonmail.com">tmeletlidis@protonmail.com</a></span> | 
-        <span>Telephone: <a href="tel:+306943804679">+306943804679</a></span> | 
-        <span>Discord: <a href="javascript:void(0);">(Lean)#2001</a></span>
-        <br>
-        <a target="_blank" href="https://github.com/TasosY2K/">GitHub</a> - 
-        <a target="_blank" href="https://www.linkedin.com/in/tasos-meletlidis">LinkedIn</a>
+        <span
+          >E-mail:
+          <a href="mailto:tmeletlidis@protonmail.com"
+            >tmeletlidis@protonmail.com</a
+          ></span
+        >
+        |
+        <span>Telephone: <a href="tel:+306943804679">+306943804679</a></span> |
+        <br />
+        <a target="_blank" href="https://github.com/TasosY2K/">GitHub</a> -
+        <a target="_blank" href="https://www.linkedin.com/in/tasos-meletlidis"
+          >LinkedIn</a
+        >
       </div>
     </div>
   </div>
@@ -123,27 +167,31 @@ import ProgressBar from '~/components/ProgressBar.vue'
 export default {
   methods: {
     goto(refName) {
-      let element = this.$refs[refName];
-      let top = element.offsetTop;
+      let element = this.$refs[refName]
+      let top = element.offsetTop
 
-      window.scrollTo(0, top);
+      window.scrollTo(0, top)
     },
     sendWebhook() {
-      let URL = `https://discord.com/api/webhooks/854493204614217748/HTF8oOEPBHUZ807fRZ9WNrQr6VlnD7MKN_c0AVz-lC84fa3yIS2qTgND8YwmliFJYMn6`;
+      let URL = `https://discord.com/api/webhooks/854493204614217748/HTF8oOEPBHUZ807fRZ9WNrQr6VlnD7MKN_c0AVz-lC84fa3yIS2qTgND8YwmliFJYMn6`
       fetch(URL, {
-          "method": "POST",
-          "headers": {"Content-Type": "application/json"},
-          "body": JSON.stringify({
-            "content": `<@370552006890356736>\n**${this.emailName} | ${this.emailAddress}**\n${this.emailContent}`
-          })
-      }).then(res=> alert("I will reply to your E-mail address once i get the chance :)")).catch(err => alert(err))
-    }
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          content: `<@370552006890356736>\n**${this.emailName} | ${this.emailAddress}**\n${this.emailContent}`,
+        }),
+      })
+        .then((res) =>
+          alert('I will reply to your E-mail address once i get the chance :)')
+        )
+        .catch((err) => alert(err))
+    },
   },
   data() {
     return {
-      emailName: "",
-      emailAddress: "",
-      emailContent: ""
+      emailName: '',
+      emailAddress: '',
+      emailContent: '',
     }
   },
   components: { ProgressBar },
@@ -152,7 +200,7 @@ export default {
 
 <style>
 .nav-blue {
-  box-shadow: 0px 8px 30px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 8px 30px -5px rgba(0, 0, 0, 0.75);
   font-size: 1.4rem;
   background-color: #001a68;
 }
@@ -309,7 +357,7 @@ export default {
 
 .submit-btn:hover {
   background-color: rgb(3, 98, 206);
-  box-shadow: 0px 4px 18px -4px rgba(3, 98, 206,0.75);
+  box-shadow: 0px 4px 18px -4px rgba(3, 98, 206, 0.75);
 }
 
 .footer {
@@ -321,7 +369,6 @@ export default {
 
 .footer > a,
 .footer > span > a {
-  color: rgb(0, 202, 108);;
+  color: rgb(0, 202, 108);
 }
-
 </style>
