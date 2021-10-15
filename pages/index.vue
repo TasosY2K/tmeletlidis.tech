@@ -150,7 +150,7 @@
           ></span
         >
         |
-        <span>Telephone: <a href="tel:+306943804679">+306943804679</a></span> |
+        <span>Telephone: <a href="tel:+306943804679">+306943804679</a></span>
         <br />
         <a target="_blank" href="https://github.com/TasosY2K/">GitHub</a> -
         <a target="_blank" href="https://www.linkedin.com/in/tasos-meletlidis"
