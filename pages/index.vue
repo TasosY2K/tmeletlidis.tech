@@ -216,6 +216,12 @@ export default {
   background-color: #ffffff63;
 }
 
+@media screen and (max-width: 745px) {
+  .nav-link:hover {
+    background-color: transparent;
+  }
+}
+
 .margin-top-fix {
   margin-top: 2.6rem;
 }

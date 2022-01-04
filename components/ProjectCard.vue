@@ -27,6 +27,12 @@ export default {
     border-radius: 30px;
 }
 
+@-moz-document url-prefix() {
+    .card > img {
+        max-height: 12rem;
+    }
+}
+
 .card-btn {
     border: none;
     padding: 5px;
