@@ -1,6 +1,14 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+
+  env: {
+    WEBHOOK_URL: process.env.WEBHOOK_URL,
+    DISCORD_ID: process.env.DISCORD_ID
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
