@@ -173,7 +173,7 @@ export default {
       window.scrollTo(0, top)
     },
     sendWebhook() {
-      let URL = `https://discord.com/api/webhooks/933875547434516520/dOZx_ZClMjSjDA6daV5g2vvOXn1duwVdFZZf4xZyGl3Pw-t_j2AA7CSRLBK3JwQ2gCl1`
+      let URL = process.env.WEBHOOK_URL
       fetch(URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
