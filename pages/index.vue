@@ -178,7 +178,7 @@ export default {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          content: `<@890375872379514941>\n**${this.emailName} | ${this.emailAddress}**\n${this.emailContent}`,
+          content: `<@${process.env.DISCORD_ID}>\n**${this.emailName} | ${this.emailAddress}**\n${this.emailContent}`,
         }),
       })
         .then((res) =>
