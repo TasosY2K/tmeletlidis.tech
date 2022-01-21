@@ -173,12 +173,12 @@ export default {
       window.scrollTo(0, top)
     },
     sendWebhook() {
-      let URL = `https://discord.com/api/webhooks/854493204614217748/HTF8oOEPBHUZ807fRZ9WNrQr6VlnD7MKN_c0AVz-lC84fa3yIS2qTgND8YwmliFJYMn6`
+      let URL = `https://discord.com/api/webhooks/933875547434516520/dOZx_ZClMjSjDA6daV5g2vvOXn1duwVdFZZf4xZyGl3Pw-t_j2AA7CSRLBK3JwQ2gCl1`
       fetch(URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          content: `<@370552006890356736>\n**${this.emailName} | ${this.emailAddress}**\n${this.emailContent}`,
+          content: `<@890375872379514941>\n**${this.emailName} | ${this.emailAddress}**\n${this.emailContent}`,
         }),
       })
         .then((res) =>
