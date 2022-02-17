@@ -54,6 +54,22 @@ export default {
         return {
             projects: [
                 {
+                    name: "Bit Warriors web services",
+                    description: "Suite of custom self-hosted web services for my CTF team",
+                    image: "https://user-images.githubusercontent.com/29873078/154498925-c1013115-5582-461a-82e1-162ee878d5d4.png",
+                    link: "https://bitwarriors.net/",
+                    tech: "VueJS/NodeJS",
+                    category: "website" 
+                },
+                {
+                    name: "Bot Detective",
+                    description: "AI powered web app for in-depth analysis of twitter accounts",
+                    image: "https://user-images.githubusercontent.com/29873078/154498932-e1597697-3599-4dba-8c1f-7a0e4b15bc52.png",
+                    link: "http://bot-detectivev2.csd.auth.gr/",
+                    tech: "React/Flask",
+                    category: "website" 
+                },
+                {
                     name: "Meimaris eShop",
                     description: "Ecommerce setup + custom plugins",
                     image: "https://cdn.discordapp.com/attachments/858361616432496640/858810580193378325/unknown.png",
