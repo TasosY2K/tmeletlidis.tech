@@ -66,7 +66,7 @@ export default {
                     description: "AI powered web app for in-depth analysis of twitter accounts",
                     image: "https://user-images.githubusercontent.com/29873078/154498932-e1597697-3599-4dba-8c1f-7a0e4b15bc52.png",
                     link: "http://bot-detectivev2.csd.auth.gr/",
-                    tech: "React/Flask",
+                    tech: "ReactJS/Flask",
                     category: "website" 
                 },
                 {

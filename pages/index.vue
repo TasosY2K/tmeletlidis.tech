@@ -32,13 +32,16 @@
               <img src="~/assets/me.jpg" class="my-image" />
               <h3 class="mt-4">Who am I?</h3>
               <p>
-                I am a self-taught fullstack web developer currently studying CS
+                I am a self-taught web developer/pentester currently studying CS
                 in Thessaloniki, GR. I have a serious passion for the cloud and
                 the infastructure that powers our everyday lives.
                 <a href="javascript:void(0);" @click="goto('5')"
-                  >Let's make something special.</a
+                  >Let's create something special.</a
                 >
               </p>
+              <a href="https://tryhackme.com/p/leandev" target="_blank" rel="noopener noreferrer">
+                 <img src="https://tryhackme-badges.s3.amazonaws.com/leandev.png" alt="TryHackMe">
+              </a>
               <a href="/AnastasiosMeletlidisCV.pdf" class="btn cv-btn" download
                 >Download CV
                 <img
@@ -58,13 +61,14 @@
                   :percentage="'85%'"
                   :text="'SQL/NoSQL Databases'"
                 />
+                <ProgressBar :percentage="'90%'" :text="'Golang'" />
+                <ProgressBar :percentage="'75%'" :text="'ReactJS/NextJS'" />
                 <ProgressBar
                   :percentage="'70%'"
                   :text="'Wordpress/Woocommerce'"
                 />
                 <ProgressBar :percentage="'70%'" :text="'CS-Cart'" />
                 <ProgressBar :percentage="'60%'" :text="'PHP'" />
-                <ProgressBar :percentage="'60%'" :text="'ReactJS'" />
               </div>
             </b-col>
           </b-row>
