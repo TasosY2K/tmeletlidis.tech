@@ -134,14 +134,6 @@ export default {
                     category: "website" 
                 },
                 {
-                    name: "IP Fragment Calculator",
-                    description: "An easy to use fragmentation calculator with a web interface.",
-                    image: "https://media.discordapp.net/attachments/609854261635055626/855123386887176272/unknown.png?width=1248&height=612",
-                    link: "https://kind-ritchie-469952.netlify.app/",
-                    tech: "VueJS",
-                    category: "website" 
-                },
-                {
                     name: "ESP8266-Phising",
                     description: "Tactical Phising Attacks with ESP8266.",
                     image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F7%2F7e%2FNodeMCU_DEVKIT_1.0.jpg%2F300px-NodeMCU_DEVKIT_1.0.jpg&f=1&nofb=1",
