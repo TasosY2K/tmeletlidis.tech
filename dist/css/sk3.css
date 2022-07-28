@@ -17,7 +17,7 @@
 	--h1-ln-h-using: var(--h1-ln-h);
 	--h1-ln-h: 1em;
 	--h1-size-using: var(--h1-size);
-	--h1-size: 1.6em;
+	--h1-size: 30px;
 	--h2-ln-h: 1em;
 	--h2-size: 2em;
 	--h3-size: 1.17em;
@@ -286,7 +286,7 @@ td {
 }
 
 .sk3-sidebar-btn {
-	margin-top: 0.38em;
+	margin-top: 0.56em;
 	background-color: var(--color-bg);
 	font-size: var(--h1-size-using);
 	font-weight: bold;
@@ -318,16 +318,20 @@ td {
 }
 
 .sk3-title-pad-left {
+	margin-top: 25px;
+	margin-left: 30px;
 	font-family: glitch !important;
 	padding-left: var(--h1-size-using);
+}
+
+.sk3-title {
+	font-size: 70px !important;
 }
 
 .sk3-title-pad-left:hover {
 	text-decoration: none;
 }
-.sk3-title {
-	font-size: 70px !important;
-}
+
 sk3-pager {
 	font-size: var(--h3-size);
 	font-weight: bold;
@@ -515,9 +519,9 @@ sk3-toc ul ul {
 	cursor: pointer;
 }
 
-#TableOfContents > a:hover {
-	background-color: var(--color-link);
-	color: var(--color-bg);
+#TableOfContents a:hover {
+	background-color: var(--color-link) !important;
+	color: var(--color-bg) !important;
 }
 
 .highlight > pre {
