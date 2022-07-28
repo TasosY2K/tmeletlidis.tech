@@ -1,0 +1,14 @@
+<header class="sk3-flex">
+
+	<!--Menu-->
+	{{if or site.Menus site.Params.socialshare site.Params.sociallink}}
+	{{partial "sidebar.html" .}}
+	{{end}}
+	<!--Title Bar-->
+	<div class="sk3-flex">
+		<div class="sk3-sidebar-btn"><span id="loader"></span></div>
+		<a class="sk3-title-pad-left sk3-margin-r" href="{{relLangURL ""}}"><span class="sk3-title">{{site.Title}}</span></a>
+		{{with site.Params.subtitle}}<span class="sk3-sub-title">{{.}}</span>{{end}}
+	</div>
+
+</header>

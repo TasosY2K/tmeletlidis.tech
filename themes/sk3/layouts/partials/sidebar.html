@@ -1,0 +1,56 @@
+<!--Menu Bar-->
+<nav class="sk3-sidebar box-right sk3-sidebar-trigger">
+	<div></div>
+	<!--Social Share-->
+	{{if site.Params.socialshare}}
+	<hr>
+	<div class="sk3-flex sk3-pad-h-full sk3-flex-center-h">
+		<b>Share</b> {{partial "social-share.html" .}}
+	</div>
+	{{end}}
+
+	<!--Menu-->
+	{{if site.Menus}}
+	<hr>
+	<ul class="sk3-pad-h-full sk3-sidebar-list-item">
+		{{$currentPage := .}}
+		{{range site.Menus.main}}
+		{{if .HasChildren}}
+		<li class="{{if $currentPage.HasMenuCurrent "main" .}}active{{end}}">
+			<a href="#">
+				{{.Pre}}
+				<span>{{.Name}}</span>
+			</a>
+		</li>
+		<ul>
+			{{range .Children}}
+			<li class="{{if $currentPage.IsMenuCurrent "main" .}}active{{end}}">
+				<a href="{{.URL}}">{{.Name}}</a>
+			</li>
+			{{end}}
+		</ul>
+		{{else}}
+		<li>
+			<a href="{{.URL}}">
+				{{.Pre}}
+				<span>{{.Name}}</span>
+			</a>
+		</li>
+		{{end}}
+		{{end}}
+	</ul>
+	{{end}}
+
+	<!--Social Link-->
+
+	{{if site.Params.sociallink}}
+	<hr>
+	<div class="sk3-flex sk3-pad-h-full sk3-flex-center-h">
+		<b>Follow</b> {{partial "social-link.html" .}}
+	</div>
+	{{end}}
+
+	<hr>
+
+</nav>
+<div class="sk3-sidebar-mask sk3-sidebar-btn sk3-sidebar-trigger"></div>

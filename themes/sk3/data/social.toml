@@ -1,0 +1,63 @@
+[[site]]
+cls = "fab fa-facebook"
+id  = "facebook"
+url = "//www.facebook.com/%s/"
+[[site]]
+cls = "fab fa-flickr"
+id  = "flickr"
+url = "//www.flickr.com/photos/%s/"
+[[site]]
+cls = "fab fa-github"
+id  = "github"
+url = "//github.com/%s/"
+[[site]]
+cls = "fab fa-instagram"
+id  = "instagram"
+url = "//www.instagram.com/%s/"
+[[site]]
+cls = "fab fa-linkedin"
+id  = "linkedin"
+url = "//www.linkedin.com/in/%s/"
+[[site]]
+cls = "fab fa-pinterest"
+id  = "pinterest"
+url = "//www.pinterest.com/%s/boards/"
+[[site]]
+cls = "fab fa-reddit"
+id  = "reddit"
+url = "//www.reddit.com/user/%s"
+[[site]]
+cls = "fab fa-stack-exchange"
+id  = "stack-exchange"
+url = "//stackexchange.com/users/%s/"
+[[site]]
+cls = "fab fa-stack-overflow"
+id  = "stack-overflow"
+url = "//stackoverflow.com/users/%s/"
+[[site]]
+cls = "fab fa-tumblr"
+id  = "tumblr"
+url = "//www.tumblr.com/dashboard/blog/%s/"
+[[site]]
+cls = "fab fa-twitter"
+id  = "twitter"
+url = "//twitter.com/%s"
+[[site]]
+cls = "fab fa-vimeo"
+id  = "vimeo"
+url = "//vimeo.com/%s"
+[[site]]
+cls = "fab fa-youtube"
+id  = "youtubeuser"
+svg = "youtube"
+url = "//www.youtube.com/user/%s"
+[[site]]
+cls = "fab fa-youtube"
+id  = "youtubechannel"
+svg = "youtube"
+url = "//www.youtube.com/channel/%s"
+[[site]]
+cls = "fas fa-rss"
+id  = "rss"
+svg = "rss"
+url = "/index.xml"

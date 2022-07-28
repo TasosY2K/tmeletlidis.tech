@@ -1,0 +1,45 @@
+<!--share-->
+<div class="sk3-flex sk3-flex-center-h box sk3-margin-v-full">
+	{{ partial "social-share.html" . }}
+</div>
+
+<!--tag/date-->
+<div class="sk3-flex sk3-margin-v-full">
+
+	<!--tags-->
+	{{if (.GetTerms "tags")}}
+	<div class="sk3-flex">
+		<div class="sk3-pad-h">Tag:</div>
+		{{range sort (.GetTerms "tags") "LinkTitle"}}
+		<div class="sk3-pad-h"><a href="{{.RelPermalink}}">{{.LinkTitle}}</a></div>
+		{{end}}
+	</div>
+	{{end}}
+
+	<!--date-->
+	{{with .Lastmod}}<div class="sk3-flex-right">Update: {{dateFormat "2006-01-02" .}}</div>{{end}}
+
+</div>
+
+<!--prev/next-->
+{{if (default true .Params.prevnext)}}
+{{if or .PrevInSection .NextInSection}}
+<h3 class="sk3-flex">
+	{{with .PrevInSection}}<span>🢐&nbsp;</span><a class="previous-post" href="{{.RelPermalink}}">{{.Title}}</a> {{end}}
+	{{with .NextInSection}}<span class="sk3-flex-right"><a class="next-post" href="{{.RelPermalink}}">{{.Title}}</a><span>&nbsp;🢒</span></span>{{end}}
+</h3>
+{{end}}
+{{end}}
+
+<!--related-->
+{{if (default true .Params.related)}}
+{{$related := site.RegularPages.Related . | first 5}}
+{{with $related}}
+<h3>See Also</h3>
+<ul>
+	{{range .}}
+	<li><a href="{{.RelPermalink}}">{{.Title}}</a></li>
+	{{end}}
+</ul>
+{{end}}
+{{end}}

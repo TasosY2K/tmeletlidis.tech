@@ -1,0 +1,47 @@
+{{define "main"}}
+<div class="main">
+
+	<div></div>
+
+	<!--Title-->
+	{{with .Title}}
+	<heading>
+		<h2>{{.}}</h2>
+	</heading>
+	{{end}}
+
+	<div></div>
+
+	<!--TOC-->
+	{{if (default true .Params.toc)}}
+	{{if and (ge (len .TableOfContents) 100) (ne .Params.toc "false")}}
+	<section class="box sk3-margin-v-full">
+		<div class="collapsible">🮮 Table of Contents</div>
+		<sk3-toc>{{.TableOfContents}}</sk3-toc>
+	</section>
+	{{end}}
+	{{end}}
+
+	<!--Content-->
+	{{with .Content}}<content class="sk3-margin-v-full">{{.}}</content>{{end}}
+
+	<div></div>
+
+	<!--Page Info-->
+	<section class="sk3-margin-v-full">
+		{{if site.Params.enableInfoBox}}
+		{{partial "pageinfo-box.html" .}}
+		{{else}}
+		{{partial "pageinfo.html" .}}
+		{{end}}
+	</section>
+
+	<div></div>
+
+	<!--Disqus-->
+	{{if and site.DisqusShortname (default true .Params.comment)}}
+	{{template "_internal/disqus.html" .}}
+	{{end}}
+
+</div>
+{{end}}
