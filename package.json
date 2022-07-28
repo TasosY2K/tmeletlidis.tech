@@ -1,0 +1,19 @@
+{
+  "name": "tmeletlidis.tech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TasosY2K/tmeletlidis.tech.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TasosY2K/tmeletlidis.tech/issues"
+  },
+  "homepage": "https://github.com/TasosY2K/tmeletlidis.tech#readme"
+}
