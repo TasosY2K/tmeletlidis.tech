@@ -54,6 +54,22 @@ export default {
         return {
             projects: [
                 {
+                    name: "Incentive Toolkit",
+                    description: "Resources for Inspiring & Supporting Citizen Science Hubs",
+                    image: "https://user-images.githubusercontent.com/29873078/192585538-d6db48b6-c4ab-4fdb-a209-853117977b51.png",
+                    link: "https://toolkit.incentive-project.eu/",
+                    tech: "ReactJS/Flask",
+                    category: "website" 
+                },
+                {
+                    name: "The Ukraine Data Observatory",
+                    description: "Platform for analyzing and visualizing data related to the war between Ukraine and Russia",
+                    image: "https://user-images.githubusercontent.com/29873078/192586192-104debd7-5d21-4e02-a4f9-9ea100b3ac61.png",
+                    link: "https://undo.csd.auth.gr/home",
+                    tech: "ReactJS/Flask",
+                    category: "website" 
+                },
+                {
                     name: "Bit Warriors web services",
                     description: "Suite of custom self-hosted web services for my CTF team",
                     image: "https://user-images.githubusercontent.com/29873078/154498925-c1013115-5582-461a-82e1-162ee878d5d4.png",
@@ -72,13 +88,13 @@ export default {
                 {
                     name: "Meimaris eShop",
                     description: "Ecommerce setup + custom plugins",
-                    image: "https://cdn.discordapp.com/attachments/858361616432496640/858810580193378325/unknown.png",
+                    image: "https://user-images.githubusercontent.com/29873078/192573951-b498e889-bd94-4341-8254-50bb96b293bc.png",
                     link: "https://www.meimaris.com",
                     tech: "CS-Cart/PHP",
                     category: "website" 
                 },
                 {
-                    name: "AlienLogger",
+                    name: "Alien Logger",
                     description: "MaaS (Malware as a Service) website offering an easier to use alternative from the traditional keylogger.",
                     image: "https://user-images.githubusercontent.com/29873078/113494787-5b528d80-94f4-11eb-90af-5170fa9b8ff2.png",
                     link: "https://github.com/TasosY2K/Alien-Logger",
@@ -86,7 +102,7 @@ export default {
                     category: "website" 
                 },
                 {
-                    name: "LitBlog",
+                    name: "Lit Blog",
                     description: "A minimal portfolio/blog CMS that can be set up in a breeze.",
                     image: "https://camo.githubusercontent.com/240e94d1a14f3f4142f7903cb1a4c609614e89790df9f0265b3bfcbd8056ffac/68747470733a2f2f696d616765732d6578742d312e646973636f72646170702e6e65742f65787465726e616c2f457448354c5042355f67703331426933795a4a616254625a644d39567a6d795f75582d536c6f6d665a57342f68747470732f692e696d6775722e636f6d2f463454677a35362e706e673f77696474683d393334266865696768743d343733",
                     link: "https://github.com/TasosY2K/lit-blog",
@@ -94,7 +110,7 @@ export default {
                     category: "website" 
                 },
                 {
-                    name: "AnonImage",
+                    name: "Anon Image",
                     description: "Web app for uploading anonymous password protected and easily shareable images.",
                     image: "https://user-images.githubusercontent.com/29873078/97197071-e09f7c80-17b5-11eb-9c01-b775353f8149.png",
                     link: "https://github.com/TasosY2K/anon-image",
@@ -102,7 +118,7 @@ export default {
                     category: "website" 
                 },
                 {
-                    name: "LightScraper",
+                    name: "Light Scraper",
                     description: "An optical character recognition search tool for screenshots from prnt.sc.",
                     image: "https://user-images.githubusercontent.com/29873078/73987010-c122a400-4947-11ea-928c-077ef7f8acad.png",
                     link: "https://github.com/TasosY2K/light-scraper",
@@ -110,7 +126,7 @@ export default {
                     category: "software" 
                 },
                 {
-                    name: "EspressoBot",
+                    name: "Espresso Bot",
                     description: "HTTP/HTTPS based Golang botnet.",
                     image: "https://user-images.githubusercontent.com/29873078/118262572-bd23f100-b4bd-11eb-9aed-a5b25bdf4d5b.png",
                     link: "https://github.com/TasosY2K/espresso-bot",
@@ -126,10 +142,10 @@ export default {
                     category: "software" 
                 },
                 {
-                    name: "LeanTracker",
+                    name: "Lean Tracker",
                     description: "A fast and easy to use ip logger built on express.js.",
-                    image: "https://camo.githubusercontent.com/380aee9fcdc46d6f9f5a55279590e77787255df404fc71102b28588bd55455d2/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3630393835343237313831303330363034392f3638383338333036333030343238323930352f53637265656e73686f745f312e706e67",
-                    link: "https://lean-tracker-demo.herokuapp.com/",
+                    image: "https://user-images.githubusercontent.com/29873078/192578433-7ad8b819-fd95-4703-836e-3b6564455436.jpg",
+                    link: "https://github.com/TasosY2K/lean-tracker",
                     tech: "NodeJS/Express.js",
                     category: "website" 
                 },
@@ -152,23 +168,15 @@ export default {
                 {
                     name: "IP Range Generator",
                     description: "A simple website for creating random fake IP addresses.",
-                    image: "https://media.discordapp.net/attachments/609854261635055626/855125827280699392/unknown.png?width=1248&height=612",
+                    image: "https://user-images.githubusercontent.com/29873078/192579779-161aac10-27e4-4406-a1c8-45d210b298be.png",
                     link: "https://tasosy2k.github.io/Random-IP-Generator",
                     tech: "HTML/CSS/JS",
                     category: "website"
                 },
                 {
-                    name: "Youtube Grabber",
-                    description: "YouTube Grabber is a high quality video converter built on express.",
-                    image: "https://camo.githubusercontent.com/e3777c6491d6dbcf700e1edc9544fe06526077b9f4b944c7f11a7df69adc0b94/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3630393835343237313831303330363034392f3635353835353838333336383133363731342f53637265656e73686f745f322e706e673f77696474683d373538266865696768743d343235",
-                    link: "https://github.com/TasosY2K/youtube-grabber",
-                    tech: "NodeJS/Express.js",
-                    category: "website"
-                },
-                {
                     name: "King Crypter Demo Site",
                     description: "Landing page for the upcoming King Crypter project.",
-                    image: "https://media.discordapp.net/attachments/609854261635055626/855127912063959060/unknown.png?width=1248&height=612",
+                    image: "https://user-images.githubusercontent.com/29873078/192584117-a3dfc76f-750b-40a3-9c14-97d1a8fd5796.png",
                     link: "https://kingcrypter.netlify.app/",
                     tech: "HTML/CSS/JS",
                     category: "website"
@@ -176,7 +184,7 @@ export default {
                 {
                     name: "Digitalza Sec Site",
                     description: "Landing page for my friends at Digitalza Sec.",
-                    image: "https://media.discordapp.net/attachments/609854261635055626/855128725368733786/unknown.png?width=1248&height=612",
+                    image: "https://user-images.githubusercontent.com/29873078/192584604-28127e63-beff-4d3b-9e6a-310e19033db2.png",
                     link: "https://digitalza.netlify.app",
                     tech: "HTML/CSS/JS",
                     category: "website"
@@ -184,7 +192,7 @@ export default {
                 {
                     name: "RedBull Basement Vote Bot",
                     description: "A bot for generating fake votes for https://basement.redbull.com/.",
-                    image: "https://media.discordapp.net/attachments/609854261635055626/855126318307999754/unknown.png?width=1248&height=612",
+                    image: "https://user-images.githubusercontent.com/29873078/192584932-412d5504-3685-4aeb-9d6f-1fcc4f4a3b1a.png",
                     link: "https://github.com/TasosY2K/basement-bot-votes",
                     tech: "NodeJS/Puppeteer",
                     category: "software"

@@ -62,7 +62,7 @@
                   :text="'SQL/NoSQL Databases'"
                 />
                 <ProgressBar :percentage="'90%'" :text="'Golang'" />
-                <ProgressBar :percentage="'75%'" :text="'ReactJS/NextJS'" />
+                <ProgressBar :percentage="'90%'" :text="'ReactJS/NextJS'" />
                 <ProgressBar
                   :percentage="'70%'"
                   :text="'Wordpress/Woocommerce'"
