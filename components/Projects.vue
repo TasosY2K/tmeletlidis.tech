@@ -57,17 +57,17 @@ export default {
                     name: "Penetration testing tool for web cams",
                     description: "A tool meant to assist cyber security researchers on discovering outdated and vulnerable camera systems on the internet by utilizing shodan.io",
                     image: "https://user-images.githubusercontent.com/29873078/208548162-70f5111e-609e-4687-968c-6e3d6cf322d3.png",
-                    link: "https://observablehq.com/@tasos/hegemony",
-                    tech: "JS/d3/Plotly/ObservableHQ",
-                    category: "website" 
+                    link: "https://github.com/TasosY2K/camera-exploit-tool",
+                    tech: "Python/SQLite",
+                    category: "software" 
                 },
                 {
                     name: "Plug and Plot",
                     description: "(Google Summer of Code 2022) Reusable visualizations for AS-hegemony data",
                     image: "https://user-images.githubusercontent.com/29873078/208547884-e70f396a-44d9-4cf0-afb5-096fbc4fec5f.png",
-                    link: "https://github.com/TasosY2K/camera-exploit-tool",
-                    tech: "Python/SQLite",
-                    category: "software" 
+                    link: "https://observablehq.com/@tasos/hegemony",
+                    tech: "JS/d3/Plotly/ObservableHQ",
+                    category: "website" 
                 },
                 {
                     name: "ClinApp Dashboard",
