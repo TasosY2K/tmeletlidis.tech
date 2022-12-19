@@ -54,6 +54,30 @@ export default {
         return {
             projects: [
                 {
+                    name: "Penetration testing tool for web cams",
+                    description: "A tool meant to assist cyber security researchers on discovering outdated and vulnerable camera systems on the internet by utilizing shodan.io",
+                    image: "https://user-images.githubusercontent.com/29873078/208548162-70f5111e-609e-4687-968c-6e3d6cf322d3.png",
+                    link: "https://observablehq.com/@tasos/hegemony",
+                    tech: "JS/d3/Plotly/ObservableHQ",
+                    category: "website" 
+                },
+                {
+                    name: "Plug and Plot",
+                    description: "(Google Summer of Code 2022) Reusable visualizations for AS-hegemony data",
+                    image: "https://user-images.githubusercontent.com/29873078/208547884-e70f396a-44d9-4cf0-afb5-096fbc4fec5f.png",
+                    link: "https://github.com/TasosY2K/camera-exploit-tool",
+                    tech: "Python/SQLite",
+                    category: "software" 
+                },
+                {
+                    name: "ClinApp Dashboard",
+                    description: "Dashboard for https://clinapp.gr/ (appointment management and prediction/medical data collection app)",
+                    image: "https://user-images.githubusercontent.com/29873078/208547395-7f85a3cb-7b1c-45a9-8eaa-42b01ed05bcc.png",
+                    link: "https://clinapp.csd.auth.gr",
+                    tech: "ReactJS",
+                    category: "website" 
+                },
+                {
                     name: "Incentive Toolkit",
                     description: "Resources for Inspiring & Supporting Citizen Science Hubs",
                     image: "https://user-images.githubusercontent.com/29873078/192585538-d6db48b6-c4ab-4fdb-a209-853117977b51.png",
