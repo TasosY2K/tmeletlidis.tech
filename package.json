@@ -1,20 +1,26 @@
 {
-  "name": "tmeletlidis.tech",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "hexo-site",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "build": "echo \"Error: no test specified\"",
-    "generate": "echo \"Error: no test specified\""
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "server": "hexo server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TasosY2K/tmeletlidis.tech.git"
+  "hexo": {
+    "version": "6.3.0"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TasosY2K/tmeletlidis.tech/issues"
-  },
-  "homepage": "https://github.com/TasosY2K/tmeletlidis.tech#readme",
-  "description": ""
+  "dependencies": {
+    "hexo": "^6.3.0",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
+    "hexo-generator-index": "^3.0.0",
+    "hexo-generator-tag": "^2.0.0",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-marked": "^6.0.0",
+    "hexo-renderer-stylus": "^2.1.0",
+    "hexo-server": "^3.0.0",
+    "hexo-theme-landscape": "^0.0.3"
+  }
 }

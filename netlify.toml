@@ -1,6 +1,0 @@
-[build]
-  command = "hugo -D"
-  publish = "public"
-
-[build.environment]
-  HUGO_VERSION = "0.89.4"
