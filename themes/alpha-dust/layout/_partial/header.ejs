@@ -1,0 +1,47 @@
+<header>
+    <div class="logo">
+        <div style="color: #d7ecff" class="mesh" id="shape-spinner"></div>
+        <style>
+            .mesh {
+                height: 200px;
+                width: 100%;
+            }
+            .mesh > svg {
+                height: 100%;
+                width: 100%;
+            }
+        </style>
+        <script src="/js/meshspin.min.js"></script>
+        <script src="/js/tp.js"></script>
+        <script>
+            let cube={nodes:[{x:1,y:1,z: -1},{x:1,y: -1,z: -1},{x: -1,y: -1,z: -1},{x: -1,y:1,z: -1},{x:1,y:1,z:1},{x:1,y: -1,z:1},{x: -1,y: -1,z:1},{x: -1,y:1,z:1}],edges:[[0,1],[0,3],[0,4],[1,5],[1,2],[2,3],[2,6],[3,7],[4,5],[4,7],[5,6],[6,7]]};
+            
+            var mesh = new MeshSpin();
+            
+            if (Math.floor(Math.random() * 3) == 1) {
+                mesh.figure(cube);
+            }
+
+            if (Math.floor(Math.random() * 3) == 1) {
+                mesh.getRotationOffset = mesh.rotateByMouse;
+            }
+
+            mesh.setup("shape-spinner");
+            mesh.run();
+        </script>
+        
+        <!-- <a href="<%- config.root %>"><i class="logo-icon fa <%- logoIcon ? logoIcon : theme.fa_logo %>" aria-hidden="true"></i></a> -->
+        <% if(headerTitle) { %>
+            <script>
+                window.onload = () => {
+                    new Typewriter("#main-title", {
+                        strings: "<%- headerTitle %>",
+                        autoStart: true,
+                        loop: false
+                    });
+                }
+            </script>
+            <h1 id="main-title" class="title"></h1>
+        <% } %>
+    </div>
+</header>

@@ -20,7 +20,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Hello World"/>
+        <meta property="og:title" content="Lean Blog"/>
     
 
     <!--Open Graph Description-->
@@ -29,11 +29,11 @@
     
 
     <!--Open Graph Site Name-->
-    <meta property="og:site_name" content="Lean blog"/>
+    <meta property="og:site_name" content="Lean Blog"/>
 
     <!--Type page-->
     
-        <meta property="og:type" content="article" />
+        <meta property="og:type" content="website" />
     
 
     <!--Page Cover-->
@@ -47,7 +47,7 @@
 
     <!-- Title -->
     
-    <title>Hello World - Lean blog</title>
+    <title>Archives - Lean Blog</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -112,7 +112,9 @@
 <div class="container">
 
     <!-- Main Content -->
-    <div class="row">
+    
+
+<div class="row">
     <div class="col-sm-12">
 
         <!--Title and Logo-->
@@ -150,63 +152,34 @@
         
         <!-- <a href="/"><i class="logo-icon fa fa-cube" aria-hidden="true"></i></a> -->
         
+            <script>
+                window.onload = () => {
+                    new Typewriter("#main-title", {
+                        strings: "Archives",
+                        autoStart: true,
+                        loop: false
+                    });
+                }
+            </script>
+            <h1 id="main-title" class="title"></h1>
+        
     </div>
 </header>
 
-        <section class="main">
+        <section class="main archive-container">
             
-<div class="post">
-
-    <div class="post-header">
-        <h1 class="title">
-            <a href="/2023/01/06/hello-world/">
-                Hello World
-            </a>
-        </h1>
-        <div class="post-info">
-            
-                <span class="date">2023-01-06</span>
-            
-            
-            
-        </div>
-    </div>
-
-    <div class="content">
-
-        <!-- Gallery -->
-        
-
-        <!-- Post Content -->
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-    </div>
-
-    
-
-    
-
-    <!-- Comments -->
-    
-
+                <div class="archive-post">
+    <a href="/ilovecameras/">
+        <span class="archive-date">
+            Jan 2023
+        </span>
+        How i pwned 1000s of cameras across the internet
+    </a>
 </div>
+            
         </section>
-
     </div>
 </div>
-
 
 </div>
 
@@ -228,7 +201,7 @@
         <ul>
             
             <li>
-                <a class="footer-post" href="/2023/01/06/hello-world/">Hello World</a>
+                <a class="footer-post" href="/ilovecameras/">How i pwned 1000s of came...</a>
             </li>
             
         </ul>

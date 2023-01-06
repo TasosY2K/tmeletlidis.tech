@@ -1,0 +1,37 @@
+# Logo (Font Awesome Class)
+fa_logo: fa-cube
+
+# Header
+menu:
+  Home: /
+  Posts: /archives
+  # About: /about.html
+  # Tags: /tags
+  # Categories: /categories
+  # Contact: /contact.html
+
+# Default post title
+default_post_title: Untitled
+
+# Archive Date Format
+archive_date_format: MMM YYYY
+
+# Comments.
+comments:
+  # Disqus comments
+  disqus_shortname:
+
+# Google Analytics Tracking ID
+google_analytics:
+
+# Social Accounts
+github_url: https://github.com/TasosY2K
+email_url: tmeletlidis@protonmail.com
+linkedin_url: https://www.linkedin.com/in/tasos-meletlidis
+
+# Footer About Text
+footer_about: "Security blog focused on infosec, common topics include web exploitation, ctf challenge writeups and smart contracts"
+
+# Footer Copyright Line
+footer_copyright: "<i>lean</i> blog"
+
