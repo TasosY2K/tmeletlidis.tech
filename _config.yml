@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Lean blog
 subtitle: ''
-description: ''
+description: 'Security blog focused on infosec, common topics include web exploitation, ctf challenge writeups and blockchain technology'
 keywords:
-author: John Doe
+author: lean
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://blog.tmeletlidis.tech
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -67,8 +67,6 @@ index_generator:
 
 # Category & Tag
 default_category: uncategorized
-category_map:
-tag_map:
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta

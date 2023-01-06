@@ -100,7 +100,7 @@ section.main {
   color: #d7ecff;
 }
 section.main .post {
-  margin-top: 200px;
+  margin-top: 1em;
 }
 @media (max-width: 33.9em) {
   section.main .post {

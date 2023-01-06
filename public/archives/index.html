@@ -13,19 +13,17 @@
 
     <!--Author-->
     
-        <meta name="author" content="John Doe">
-    
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Hexo"/>
+        <meta property="og:title" content="Lean blog"/>
     
 
     <!--Open Graph Description-->
     
 
     <!--Open Graph Site Name-->
-    <meta property="og:site_name" content="Hexo"/>
+    <meta property="og:site_name" content="Lean blog"/>
 
     <!--Type page-->
     
@@ -43,7 +41,7 @@
 
     <!-- Title -->
     
-    <title>Archives - Hexo</title>
+    <title>Archives - Lean blog</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
@@ -140,9 +138,42 @@
         <!--Title and Logo-->
         <header>
     <div class="logo">
-        <a href="/"><i class="logo-icon fa fa-cube" aria-hidden="true"></i></a>
+        <div style="color: #d7ecff" class="mesh" id="shape-spinner"></div>
+        <style>
+            .mesh {
+                height: 200px;
+                width: 100%;
+            }
+            .mesh > svg {
+                height: 100%;
+                width: 100%;
+            }
+        </style>
+        <script src="http://kickstart.ch/js/meshspin.min.js"></script>
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script>
+            let cube={nodes:[{x:1,y:1,z: -1},{x:1,y: -1,z: -1},{x: -1,y: -1,z: -1},{x: -1,y:1,z: -1},{x:1,y:1,z:1},{x:1,y: -1,z:1},{x: -1,y: -1,z:1},{x: -1,y:1,z:1}],edges:[[0,1],[0,3],[0,4],[1,5],[1,2],[2,3],[2,6],[3,7],[4,5],[4,7],[5,6],[6,7]]};
+            
+            var mesh = new MeshSpin();
+            if (Math.floor(Math.random() * 3) == 1) {
+                mesh.figure(cube);
+            }
+            mesh.setup("shape-spinner");
+            mesh.run();
+        </script>
         
-            <h1 id="main-title" class="title">Archives</h1>
+        <!-- <a href="/"><i class="logo-icon fa fa-cube" aria-hidden="true"></i></a> -->
+        
+            <script>
+                window.onload = () => {
+                    new Typewriter("#main-title", {
+                        strings: "Welcome to Archives",
+                        autoStart: true,
+                        loop: false
+                    });
+                }
+            </script>
+            <h1 id="main-title" class="title"></h1>
         
     </div>
 </header>
@@ -173,7 +204,7 @@
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 footer-about">
                 <h2>About</h2>
                 <p>
-                    This theme was developed by <a target="_blank" rel="noopener" href="https://github.com/klugjo">Jonathan Klughertz</a>. The source code is available on Github. Create Websites. Make Magic.
+                    Security blog focused on infosec, common topics include web exploitation, ctf challenge writeups and blockchain technology
                 </p>
             </div>
             
@@ -197,7 +228,7 @@
                 <ul class="list-inline footer-social-icons">
                     
                     <li class="list-inline-item">
-                        <a target="_blank" rel="noopener" href="https://github.com/klugjo/hexo-theme-alpha-dust">
+                        <a target="_blank" rel="noopener" href="https://github.com/TasosY2K">
                             <span class="footer-icon-container">
                                 <i class="fa fa-github"></i>
                             </span>
@@ -205,82 +236,19 @@
                     </li>
                     
                     
-                    <li class="list-inline-item">
-                        <a target="_blank" rel="noopener" href="https://twitter.com/?lang=en">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-twitter"></i>
-                            </span>
-                        </a>
-                    </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/tasos-meletlidis">
+                                <span class="footer-icon-container">
+                                    <i class="fa fa-linkedin"></i>
+                                </span>
+                            </a>
+                        </li>
                     
                     
                     <li class="list-inline-item">
-                        <a target="_blank" rel="noopener" href="https://www.facebook.com/">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-facebook"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li class="list-inline-item">
-                        <a target="_blank" rel="noopener" href="https://www.instagram.com/">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-instagram"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li class="list-inline-item">
-                        <a target="_blank" rel="noopener" href="https://dribbble.com/">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-dribbble"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li class="list-inline-item">
-                        <a target="_blank" rel="noopener" href="https://telegram.org/">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-telegram"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li class="list-inline-item">
-                        <a target="_blank" rel="noopener" href="https://www.behance.net/">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-behance"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li class="list-inline-item">
-                        <a target="_blank" rel="noopener" href="https://500px.com/">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-500px"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li class="list-inline-item">
-                        <a href="mailto:test@example.com">
+                        <a href="mailto:tmeletlidis@protonmail.com">
                             <span class="footer-icon-container">
                                 <i class="fa fa-envelope-o"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li class="list-inline-item">
-                        <a href="\#">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-rss"></i>
                             </span>
                         </a>
                     </li>
@@ -291,7 +259,7 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="footer-copyright">
-                    @Untitled. All right reserved | Design & Hexo <a target="_blank" rel="noopener" href="http://www.codeblocq.com/">Jonathan Klughertz</a>
+                    2023 @ <i>lean</i> blog
                 </div>
             </div>
         </div>
