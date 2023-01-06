@@ -1,6 +1,8 @@
 ---
-title: How i pwned 1000s of cameras across the internet
+title: ilovecameras
+date: 2023-01-06 10:40:14
 excerpt: I made a tool to automatically find and exploit cheap chinese cameras
+tags: IOT
 ---
 
 One day i was browsing around [shodan.io](https://shodan.io) and randomly stumbled upon the **faucet** search feature.
