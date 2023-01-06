@@ -22,6 +22,7 @@
               >Projects</b-nav-item
             >
             <b-nav-item href="#" @click="goto('5')">Contact</b-nav-item>
+            <b-nav-item href="https://blog.tmeletlidis.tech/" target="_blank">Blog</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>
