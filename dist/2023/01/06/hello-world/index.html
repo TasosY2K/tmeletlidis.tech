@@ -50,7 +50,7 @@
     <title>Hello World - Lean blog</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
 
     <!-- Custom Fonts -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -63,7 +63,7 @@
     <![endif]-->
 
     <!-- Gallery -->
-    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet" />
+    <link href="/css/featherlight.min.css" type="text/css" rel="stylesheet" />
 
     <!-- Custom CSS -->
     
@@ -96,31 +96,7 @@
             
             <li class="menu-item">
                 <a href="/archives">
-                    Archives
-                </a>
-            </li>
-            
-            <li class="menu-item">
-                <a href="/about.html">
-                    About
-                </a>
-            </li>
-            
-            <li class="menu-item">
-                <a href="/tags">
-                    Tags
-                </a>
-            </li>
-            
-            <li class="menu-item">
-                <a href="/categories">
-                    Categories
-                </a>
-            </li>
-            
-            <li class="menu-item">
-                <a href="/contact.html">
-                    Contact
+                    Posts
                 </a>
             </li>
             
@@ -153,15 +129,21 @@
                 width: 100%;
             }
         </style>
-        <script src="http://kickstart.ch/js/meshspin.min.js"></script>
-        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="/js/meshspin.min.js"></script>
+        <script src="/js/tp.js"></script>
         <script>
             let cube={nodes:[{x:1,y:1,z: -1},{x:1,y: -1,z: -1},{x: -1,y: -1,z: -1},{x: -1,y:1,z: -1},{x:1,y:1,z:1},{x:1,y: -1,z:1},{x: -1,y: -1,z:1},{x: -1,y:1,z:1}],edges:[[0,1],[0,3],[0,4],[1,5],[1,2],[2,3],[2,6],[3,7],[4,5],[4,7],[5,6],[6,7]]};
             
             var mesh = new MeshSpin();
+            
             if (Math.floor(Math.random() * 3) == 1) {
                 mesh.figure(cube);
             }
+
+            if (Math.floor(Math.random() * 3) == 1) {
+                mesh.getRotationOffset = mesh.rotateByMouse;
+            }
+
             mesh.setup("shape-spinner");
             mesh.run();
         </script>
@@ -237,7 +219,7 @@
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 footer-about">
                 <h2>About</h2>
                 <p>
-                    Security blog focused on infosec, common topics include web exploitation, ctf challenge writeups and blockchain technology
+                    Security blog focused on infosec, common topics include web exploitation, ctf challenge writeups and smart contracts
                 </p>
             </div>
             
