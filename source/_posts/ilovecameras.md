@@ -1,5 +1,5 @@
 ---
-title: How i pwned 1000s of cameras around the internet
+title: How i pwned thousands of cameras around the internet
 date: 2023-01-06 10:40:14
 excerpt: I made a tool to automatically find and exploit cheap chinese cameras
 tags: IOT
